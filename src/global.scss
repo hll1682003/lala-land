@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Ablation";
+  src: url("/public/assets/Ablation_PersonalUse.otf");
+}
+@font-face {
+  font-family: "Tan Nimbus";
+  src: url("/public/assets/TAN-NIMBUS.otf");
+}
+body {
+  font-family: "Archivo", sans-serif !important;
+  margin: 0 !important;
+}
+
+:root {
+  --primary-logo-color: #001c43;
+  --primary-navbar-background-color: #cffdff;
+  --font-heading-weight: 700;
+  --font-body-scale: 1.05;
+  --font-heading-scale: 1.0476190476190477;
+}

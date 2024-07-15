@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/index.ts"],
+      "@assets/*": ["public/assets/*"],
+      "@constants/*": ["src/constants/index.ts"]
+    },
+    "sourceMap": true,
+    "moduleResolution": "Node",
+    "types": ["webpack-env", "node"],
+    "typeRoots": ["node_modules/@types"],
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
