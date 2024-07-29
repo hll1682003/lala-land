@@ -6,7 +6,9 @@
     <title>Single Page Apps for GitHub Pages</title>
     <script type="text/javascript">
       const currentHost = window.location.hostname;
-      window.location.replace(`${currentHost}/lala-land/`);
+      if (window.location !== `${currentHost}/lala-land/`) {
+        window.location.replace(`${currentHost}/lala-land/`);
+      }
     </script>
   </head>
   <body></body>
