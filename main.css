@@ -1,1 +1,1 @@
-body{margin:0 !important}:root{--primary-logo-color: #001c43;--primary-navbar-background-color: #cffdff}
+@font-face{font-family:"Ablation";src:url(/lala-land/d4f500f896783e894d48.otf)}@font-face{font-family:"Tan Nimbus";src:url(/lala-land/dc9b46aa9580a3f22cef.otf)}body{font-family:"Archivo",sans-serif !important;margin:0 !important}:root{--primary-logo-color: #001c43;--primary-navbar-background-color: #cffdff;--font-heading-weight: 700;--font-body-scale: 1.05;--font-heading-scale: 1.0476190476190477}
